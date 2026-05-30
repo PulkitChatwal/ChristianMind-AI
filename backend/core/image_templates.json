@@ -1,0 +1,89 @@
+{
+  "subjects": {
+    "jesus": {
+      "keywords": ["jesus", "christ"],
+      "base_prompt": "Jesus Christ, warm golden light, classical oil painting style, Renaissance influence, divine compassion, peaceful serenity"
+    },
+    "mary": {
+      "keywords": ["mary", "virgin mary", "mother mary"],
+      "base_prompt": "Virgin Mary, soft blue and white tones, gentle light, classical Renaissance style, maternal grace"
+    },
+    "joseph": {
+      "keywords": ["joseph"],
+      "base_prompt": "Saint Joseph, gentle father figure, warm light, classical Renaissance style, protective presence, carpentry tools"
+    },
+    "disciples": {
+      "keywords": ["follower", "followers", "disciple", "disciples", "apostle", "apostles", "crowd", "people"],
+      "base_prompt": "with his disciples and followers, biblical scene"
+    },
+    "cross": {
+      "keywords": ["cross", "crucifix", "crucifixion", "calvary"],
+      "base_prompt": "the Crucifixion, Jesus Christ on the cross, solemn atmosphere"
+    },
+    "bible": {
+      "keywords": ["bible", "scripture"],
+      "base_prompt": "open Bible with golden light, peaceful devotional setting, classical still life"
+    },
+    "church": {
+      "keywords": ["church", "cathedral", "chapel"],
+      "base_prompt": "beautiful church interior, stained glass windows, warm candlelight, sacred peaceful atmosphere"
+    },
+    "angel": {
+      "keywords": ["angel", "angels", "heavenly"],
+      "base_prompt": "gentle angel figure, soft white light, divine presence, heavenly atmosphere"
+    },
+    "god": {
+      "keywords": ["god", "holy spirit", "trinity", "divine light"],
+      "base_prompt": "symbolic representation of divine light, radiant golden glow, sacred atmosphere"
+    },
+    "baby": {
+      "keywords": ["baby", "infant", "child"],
+      "base_prompt": "baby Jesus, mother and child tenderness"
+    },
+    "nativity": {
+      "keywords": ["nativity", "birth", "manger", "stable", "shepherd"],
+      "base_prompt": "the Nativity scene, baby Jesus in a manger, shepherds and angels, warm golden light"
+    },
+    "prayer": {
+      "keywords": ["prayer", "praying", "worship"],
+      "base_prompt": "figure in prayer, peaceful worship, divine light"
+    },
+    "resurrection": {
+      "keywords": ["resurrection", "rising", "empty tomb", "easter"],
+      "base_prompt": "the Resurrection, empty tomb with angel, radiant light, glorious morning"
+    },
+    "holy_family": {
+      "keywords": ["family", "holy family", "nazarene"],
+      "base_prompt": "the Holy Family, Mary, Joseph and Jesus, domestic scene, warm intimate atmosphere"
+    }
+  },
+  "combos": {
+    "mary_jesus": {
+      "keywords": ["mary", "virgin mary"],
+      "requires": ["jesus"],
+      "prompt": "Virgin Mary holding baby Jesus, mother and child tenderness, divine love"
+    },
+    "jesus_disciples": {
+      "keywords": ["follower", "disciple", "apostle", "crowd"],
+      "requires": ["jesus"],
+      "prompt": "Jesus Christ with his disciples and followers, biblical scene, divine teaching moment"
+    },
+    "jesus_cross": {
+      "keywords": ["cross", "crucifix"],
+      "requires": ["jesus"],
+      "prompt": "the Crucifixion, Jesus Christ on the cross, solemn and reverent atmosphere"
+    },
+    "holy_family": {
+      "keywords": ["family", "holy family", "nazarene"],
+      "requires": [],
+      "prompt": "the Holy Family - Mary, Joseph and baby Jesus, warm intimate domestic scene, classical oil painting"
+    },
+    "joseph_jesus": {
+      "keywords": ["joseph"],
+      "requires": ["jesus"],
+      "prompt": "Saint Joseph with young Jesus, father and son bonding, carpentry workshop, warm light"
+    }
+  },
+  "style": ", high quality, detailed, classical oil painting style, Renaissance influence, appropriate for worship context",
+  "default": "sacred Christian imagery, reverent atmosphere, warm golden light, classical artistic style, spiritually uplifting"
+}
